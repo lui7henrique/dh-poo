@@ -25,15 +25,10 @@ public class Main {
 
     System.out.println("Perguntas sobre o crime:");
     for (Question i : questions) {
-      Scanner input = new Scanner(System.in);
-      System.out.println(i.getQuestion());
-      String answer = input.nextLine().toLowerCase();
-      i.setAnswer(answer);
-
+      i.ask();
       if (i.getAnswer().equals("sim")) {
         count++;
       }
-
     }
 
     System.out.println("Relatório:");

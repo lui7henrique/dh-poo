@@ -35,8 +35,7 @@ public class Question {
   public void ask() {
     Scanner input = new Scanner(System.in);
     System.out.println(this.question);
-    String answer = input.nextLine();
+    String answer = input.nextLine().toLowerCase();
     setAnswer(answer);
-    System.out.println("Your answer is: " + this.answer);
   }
 }
