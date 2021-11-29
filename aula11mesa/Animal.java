@@ -6,5 +6,4 @@ public abstract class Animal {
     this.nome = nome;
     this.idade = idade;
   }
-
 }
