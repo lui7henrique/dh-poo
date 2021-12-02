@@ -17,6 +17,6 @@ public class People {
   public String toString() {
     return "Name: " + this.name + " | " +
         "Birth Date: " + this.birthDate + " | " +
-        "Biography: " + this.biography;
+        "Biography: " + this.biography + " | ";
   }
 }
