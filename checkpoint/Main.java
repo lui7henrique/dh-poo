@@ -30,8 +30,13 @@ public class Main {
     // people
     Actor tom_holland = new Actor("Tom Holland", "01/06/1996",
         "Thomas Stanley Tom Holland is a British actor, dancer and voice actor. He is best known for playing Peter Parker / Spider-Man in the Marvel Cinematic Universe.",
-        "Homem Aranha: Longe de casa");
+        "Homem Aranha: No way home");
     System.out.println(tom_holland.toString());
+
+    Director tim_burton = new Director("Tim Burton", "25/08/1958",
+        "Timothy Walter Burton is an American filmmaker, producer, screenwriter, writer, animator and designer.",
+        "The Corpse Bride");
+    System.out.println(tim_burton.toString());
 
   }
 }
